@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.arrow {
+  width: 60px;
+  height: 60px;
+}
+
+.st1 {
+  fill: #929292;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #706e6e;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding-top: 70px;
+  }
+  .arrow {
+    width: 100px;
+    height: 100px;
+  }
+  .text {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    padding-top: 100px;
+  }
+  .arrow {
+    width: 150px;
+    height: 150px;
+  }
+  .text {
+    font-size: 32px;
+  }
+}
